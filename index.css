@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+#cuerpo {
+    background:linear-gradient(130deg,#B8F9F6,#DCF8F6,#FDFFD3,#F5DCF8,#E58EEE);
+    width: 275px;
+    height: 325px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 300px/410px 410px 300px 300px;
+    box-shadow:0 0 20px rgba(208, 221, 217, 0.971) insert;
+    box-shadow:0 0 20px rgba(208, 221, 217, 0.971);
+    gap: 10px;
+}
+
+#pantalla {
+    background-color: rgb(246, 255, 149);
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    clip-path: polygon(8% 18%, 8% 5%, 28% 8%, 47% 0, 68% 9%, 79% 0, 97% 15%, 89% 28%, 100% 50%,100% 50%,90% 80%, 86% 92%, 65% 90%, 51% 96%, 37% 86%, 20% 96%, 6% 84%, 9% 68%, 0 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-family: 'Covered By Your Grace', cursive;
+    color: #d817e6;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+#display{
+    background-color: rgb(206, 206, 206);
+    width: 120px;
+    height: 110px;
+    border-radius: 10px;
+}
+.boton{
+    display:inline-block;
+    color:yellow;
+    background-color: yellow;
+    border-radius: 40%;
+    width: 20px;
+    height: 20px;
+}
+#sepboton {
+display: flex;
+flex-direction: row;
+gap:15px;
+
+}
